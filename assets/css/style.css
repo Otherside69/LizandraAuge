@@ -157,7 +157,7 @@ h2 {
     border-radius: 15px 0 0 15px; }
   .contact-pop .row {
     max-width: 918px;
-    margin: 0 auto; }
+    margin: 59px auto; }
   .contact-pop img {
     border-radius: 15px 0 0 15px; }
   .contact-pop .content {
@@ -348,7 +348,7 @@ h2 {
 .owl-carousel .owl-video-wrapper {
   position: relative;
   height: 100%;
-  background: #000; }
+  background: #f1f1f1; }
 
 .owl-carousel .owl-video-play-icon {
   position: absolute;
@@ -386,7 +386,7 @@ h2 {
   width: 100%; }
 
 .fh5co-recent-work {
-  background: #e90e65;
+  background: #ff2424f2;
   padding: 100px 0; }
   @media (max-width: 767px) {
     .fh5co-recent-work {
@@ -436,7 +436,7 @@ h2 {
       margin-bottom: 5px; }
     .recent .card p {
       font-size: 14px;
-      color: #e90e65; }
+      color: #ffffff; }
     .recent .card.active, .recent .card:hover {
       transform: scale(1.05, 1.1);
       -webkit-transform: scale(1.05, 1.1);
@@ -444,10 +444,10 @@ h2 {
       -moz-transform: scale(1.05, 1.1);
       box-shadow: 0px 20px 32px 0px rgba(0, 0, 0, 0.25); }
       .recent .card.active .card-img-overlay, .recent .card:hover .card-img-overlay {
-        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
-        background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
-        background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95)); }
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), #fc3c3cf2);
+        background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), #f72e2ef2);
+        background: linear-gradient(rgba(0, 0, 0, 0.3), #f72e2ef2);
+        background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), #f72e2ef2); }
       .recent .card.active p, .recent .card:hover p {
         color: #e587ac; }
   .recent .card-img-overlay {
@@ -520,7 +520,7 @@ h2 {
 
 .activity {
   background: #f3e7e8;
-  padding-bottom: 50px; }
+  padding-bottom: 100px; }
   .activity .recent {
     margin-top: 0; }
   .activity h2 {
@@ -543,10 +543,10 @@ h2 {
       transform: none;
       box-shadow: none; }
       .activity .card.active .card-img-overlay, .activity .card:hover .card-img-overlay {
-        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
-        background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
-        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
-        background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95)); }
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), #fc3c3cf2);
+        background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), #fc3c3cf2);
+        background: linear-gradient(rgba(0, 0, 0, 0.3), #fc3c3cf2);
+        background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), #fc3c3cf2); }
       .activity .card.active p, .activity .card:hover p {
         color: #e587ac; }
     .activity .card h5 {
@@ -569,7 +569,7 @@ h2 {
 .fh5co-about-me {
   padding: 0; }
   .fh5co-about-me .card-img-overlay {
-    background-color: rgba(233, 14, 101, 0.902); }
+    background-color: #ff2424c4; }
   .fh5co-about-me h2 {
     text-align: center;
     color: #fff;
@@ -706,8 +706,6 @@ h2 {
     text-align: center;
     margin: 0 10px; }
     .social-links ul li a {
-      border: 1px solid #a59299;
-      border-radius: 50%;
       width: 48px;
       height: 48px;
       padding: 0;
@@ -715,8 +713,12 @@ h2 {
     .social-links ul li:hover a, .social-links ul li:visited a {
       background: #fff; }
 
+      
+
+      
+
 footer {
-  background: #e90e65; }
+  background: #ff2424f2; }
   footer iframe {
     height: 100%;
     width: 100%; }
@@ -724,12 +726,12 @@ footer {
     border-radius: 25px;
     padding: 35px;
     background-color: #fff;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: -20px -16px 10px 0px rgba(0, 0, 0, 0.2);
     width: 100%;
     max-width: 380px;
     margin: 117px auto; }
     footer .contact-form h3 {
-      color: #e90e65;
+      color: #e90e0e;
       font-size: 20px;
       text-align: center;
       margin-bottom: 20px; }
@@ -747,7 +749,7 @@ footer {
       resize: none;
       padding-top: 20px !important; }
     footer .contact-form button {
-      background: #e90e65;
+      background: #e90e0e;
       width: 140px;
       padding: 13px 0;
       font-size: 15px;
@@ -758,7 +760,7 @@ footer {
       display: block;
       cursor: pointer; }
       footer .contact-form button:hover, footer .contact-form button:visited {
-        background: #b90b50; }
+        background: #b90b0b; }
   footer .copy {
     background: #282526;
     text-align: center; }
